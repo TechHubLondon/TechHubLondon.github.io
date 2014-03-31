@@ -1,0 +1,290 @@
+.footer {
+    margin-top: 10px;
+    padding-top: 19px;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+}
+.img-background {
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #1b1b1b;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.intro {
+    background-image: url(../images/207night.jpg);
+}
+.eat {
+    background-image: url(../images/eat.jpg);
+}
+.staying {
+    background-image: url(../images/staying1.jpg);
+}
+.workout {
+    background-image: url(../images/workout1.jpg);
+}
+.shopping {
+    background-image: url(../images/shopping1.jpg);
+}
+.events {
+    background-image: url(../images/events1.jpg);
+}
+.campus {
+    /*background-image: url(http://www.campuslondon.com/static/public/img/header/desktop/home-x2.jpg);*/
+    background-image: url(../images/events2.jpg);
+    padding: 100px 0;
+    background-attachment: scroll;
+}
+.roundabout {
+    height: auto;
+    padding: 100px 0;
+    background-image: url(../images/campus1.jpg);
+    background-attachment: scroll;
+}
+.whitecross-mkt {
+    height: auto;
+    padding: 100px 0;
+    background-image: url(../images/whitecross-mkt.jpg);
+    background-attachment: scroll;
+}
+.bg-drink {
+    height: auto;
+    padding: 100px 0;
+    background-image: url(../images/drink1.jpg);
+    background-attachment: scroll;
+}
+.shopping2 {
+    height: auto;
+    padding: 150px 0;
+    background-image: url(../images/letter1.jpg);
+    background-attachment: scroll;
+}
+.intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+.logo-intro {
+    max-width: 300px;
+    padding-top: 30px;
+    display: inline;
+    -webkit-animation-delay: 1s;
+}
+.dot-london {
+    display: inline-block;
+    font-size: 2em;
+    margin-left: 10px;
+    background-color: #1b1b1b;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+.jumbo-text {
+    font-size: 1.5em;
+    margin-top: 40px;
+    -webkit-animation-delay: .5s;
+}
+.jumbo-text span {
+    background-color: #1b1b1b;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+.drink-list {
+    line-height: 1.6em;
+    font-size: 1.4em;
+}
+.section-text {
+    padding:50px 0;
+    text-align: center;
+}
+.map {
+    position: relative;
+    height: 30em;
+    text-align: right;
+    margin:80px 0;
+}
+.map-canvas {
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.map-disable {
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: 0;
+}
+.navbar-custom a {
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+.navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus, .navbar-custom .nav li.active {
+    outline: 0;
+    background-color: rgba(255, 255, 255, .2);
+}
+.navbar-toggle {
+    position: relative;
+    float: left;
+    margin-left: 15px;
+    padding: 9px 10px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    background-color: #1b1b1b;
+    background-image: none;
+    border: 1px solid #f7af3f;
+    border-radius: 4px;
+}
+.navbar-toggle .icon-bar {
+    background-color: #f7af3f;
+}
+.logo-small {
+    margin-bottom:30px;
+    margin-top:30px;
+}
+.text-black {
+    color: #333;
+}
+.footer-social i {
+    margin:0 15px;
+}
+.small-section {
+    padding:30px 0;
+}
+.bg-white {
+    background-color: #fafafa;
+    padding:60px 0;
+}
+.img-background {
+    display: table;
+    width: 100%;
+    height: 70%;
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #1b1b1b;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+@media(min-width:767px) {
+    .img-background {
+        display: table;
+        width: 100%;
+        height: 100%;
+        padding: 100px 0;
+        text-align: center;
+        color: #fff;
+        background-color: #1b1b1b;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+    .section-text {
+        padding:100px 0;
+    }
+    .intro {
+        background-image: url(../images/207night.jpg);
+    }
+    .eat {
+        background-image: url(../images/eat.jpg);
+    }
+    .staying {
+        background-image: url(../images/staying1.jpg);
+    }
+    .workout {
+        background-image: url(../images/workout1.jpg);
+    }
+    .shopping {
+        background-image: url(../images/shopping1.jpg);
+    }
+    .events {
+        background-image: url(../images/events1.jpg);
+    }
+    .campus {
+        /*background-image: url(http://www.campuslondon.com/static/public/img/header/desktop/home-x2.jpg);*/
+        background-image: url(../images/events2.jpg);
+        padding: 200px 0;
+        background-attachment: scroll;
+    }
+    .roundabout {
+        height: auto;
+        padding: 300px 0;
+        background-image: url(../images/campus1.jpg);
+        background-attachment: scroll;
+    }
+    .whitecross-mkt {
+        height: auto;
+        padding: 300px 0;
+        background-image: url(../images/whitecross-mkt.jpg);
+        background-attachment: scroll;
+    }
+    .bg-drink {
+        height: auto;
+        padding: 300px 0;
+        background-image: url(../images/drink1.jpg);
+        background-attachment: scroll;
+    }
+    .shopping2 {
+        height: auto;
+        padding: 150px 0;
+        background-image: url(../images/letter1.jpg);
+        background-attachment: scroll;
+    }
+    .navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background-color: rgba(0, 0, 0, 0.35);
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+        padding: 0;
+        background-color: #000;
+    }
+    .navbar-custom.top-nav-collapse {
+        border-bottom: 1px solid rgba(255, 255, 255, .3);
+    }
+    .intro, .eat {
+        height: 100%;
+        padding: 0;
+    }
+    .logo-intro {
+        padding-top:0px;
+    }
+    .jumbo-text {
+        font-size: 4em;
+    }
+    .content-section {
+        padding-top: 20px;
+    }
+    #footer {
+        padding-top:70px;
+    }
+}
