@@ -49,7 +49,7 @@ module.exports = function(grunt) {
                 options: {
                     dir: '<%= config.app %>',
                     remote: 'git@github.com:TechHubLondon/TechHubLondon.github.io.git',
-                    branch: 'master',
+                    branch: 'dev',
                     commit: true,
                     push: true
                 }
@@ -395,7 +395,7 @@ module.exports = function(grunt) {
         'buildcontrol:dist'
     ]);
 
-    grunt.registerTask('git-master', [
+    grunt.registerTask('deploy-dev', [
         'buildcontrol:master'
     ]);
 
