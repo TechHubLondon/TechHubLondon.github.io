@@ -3,7 +3,8 @@ TechHub.London
 
 This is the GitHub page for Techhub.London, TechHub’s guide to the best of the local area. All of the information on the website is Open Source, and if you have better suggestions, you are welcome to edit the code and add them! 
 
-You can find the source in the [master](https://github.com/TechHubLondon/techhub.london/tree/master) branch, while the live pages are in the [gh-pages](https://github.com/TechHubLondon/techhub.london/tree/gh-pages) branch.
+You can find the source in the [dev](https://github.com/TechHubLondon/TechHubLondon.github.io/tree/dev) branch, while the live pages are in the [master](https://github.com/TechHubLondon/TechHubLondon.github.io/tree/master) branch.  
+Feeling curious? See how we built the project in the [source](https://github.com/TechHubLondon/TechHubLondon.github.io/tree/source) branch.
 
 ## Getting started
 
@@ -16,7 +17,7 @@ We ask that all additions fit these criteria:
 - It only contains links to relevant websites or relevant text
 - It doesn’t cause the website to break or contain malicious code
 
-Any edits that do not fit the criteria sadly will not be added to the website :( 
+Any edits that do not fit the criteria sadly will not be added to the website :(  
 TechHub dot London is a benevolent dictatorship - we reserve the right not to add content as we see fit, but we'll usually add any relevant content.
 
 
@@ -32,7 +33,7 @@ TechHub dot London is a benevolent dictatorship - we reserve the right not to ad
 ## Made with
 - Bootstrap3
 - jQuery
-- FontAwesome
+- Font-Awesome
 - Yeoman
 - Node.js
 - Grunt
@@ -40,4 +41,4 @@ TechHub dot London is a benevolent dictatorship - we reserve the right not to ad
 
 ## License
 
-TechHub.London is licensed under the terms of the MIT Licence - see the License.txt file in the root directory for more details. 
+TechHub.London is licensed under the terms of the MIT Licence - see the License.txt file for more details. 
