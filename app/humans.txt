@@ -1,16 +1,23 @@
-/* TechHub TEAM */
-Dan Blows
-Hope Thomas @h0peth0mas
-Mattia Asti @mattia_asti
+/* TEAM */
 
-Site: http://www.techhub.com/contact
-Location: London, UK
+  Front end Dev and Design: Mattia Asti
+  Twitter: @Mattia_Asti
+
+  Product Management: Hope Thomas
+  Twitter: @H0peTh0mas
+
+  Back end Development: Dan Blows
+
+  Website editing and testing: Yari Mattei
+
+  Ideas and help: Andrew Tibbitts
+  Twitter: @AndrewTibbitts
+
 
 /* THANKS */
 
-                        
+  The dot London Team @ London & Partners
+
 /* SITE */
-Last update: 31/03/2014
-Standards: HTML5, CSS3
-Components: Modernizr, jQuery, Bootstrap3, Font-Awesome
-Software: Node.js, Yeoman, Grunt
+
+  Have a look at our GitHub page for all of the site details, or to join in with the fun: www.github.com/techhublondon
