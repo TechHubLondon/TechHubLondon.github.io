@@ -79,12 +79,22 @@ body, html {
     max-width: 300px;
     padding-top: 30px;
     display: inline;
-    -webkit-animation-delay: 1s;
+    -webkit-animation-delay: .5s;
 }
 .dot-london {
     display: inline-block;
     font-size: 2em;
     margin-left: 10px;
+    background-color: #1b1b1b;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+.dot-london-sub {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.9em;
+    margin-left: 10px;
+}
+.dot-london-sub span {
     background-color: #1b1b1b;
     background-color: rgba(0, 0, 0, 0.65);
 }
