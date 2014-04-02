@@ -1,4 +1,6 @@
 $('.logo-intro').removeClass('hidden').addClass('animated flipInY');
+$('.dot-london-sub').removeClass('hidden').addClass('animated fadeIn');
+$('.dot-london').removeClass('hidden').addClass('animated fadeIn');
 $('.jumbo-text').removeClass('hidden').addClass('animated fadeInDown');
 
 //jQuery to collapse the navbar on scroll
