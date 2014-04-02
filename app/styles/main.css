@@ -183,6 +183,7 @@ body, html {
 .bg-white {
     background-color: #fafafa;
     padding:60px 0;
+    color: #333;
 }
 .img-background {
     display: table;
