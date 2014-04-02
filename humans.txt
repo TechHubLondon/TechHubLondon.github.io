@@ -1,0 +1,23 @@
+/* TEAM */
+
+  Front end Dev and Design: Mattia Asti
+  Twitter: @Mattia_Asti
+
+  Product Management: Hope Thomas
+  Twitter: @H0peTh0mas
+
+  Back end Development: Dan Blows
+
+  Website editing and testing: Yari Mattei
+
+  Ideas and help: Andrew Tibbitts
+  Twitter: @AndrewTibbitts
+
+
+/* THANKS */
+
+  The dot London Team @ London & Partners
+
+/* SITE */
+
+  Have a look at our GitHub page for all of the site details, or to join in with the fun: www.github.com/techhublondon
