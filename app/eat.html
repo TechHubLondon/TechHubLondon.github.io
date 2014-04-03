@@ -125,10 +125,6 @@
                 </div>
             </div>
         </div>
-        <!--         <div class="map">
-            <div class="map-disable"></div>
-            <div id="map_canvas_01" class="map-canvas"></div>
-        </div> -->
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
@@ -196,7 +192,7 @@
                         Any of these great Vietnamese places
                     </a>
                         </h4>
-                        
+
                     </div>
                 </div>
                 <div class="col-sm-4 text-center">
@@ -397,134 +393,6 @@
     </script>
 
     <script src="//maps.googleapis.com/maps/api/js?sensor=false"></script>
-    <script>
-    // Google map
-    var mapOptions = {
-        zoom: 16,
-        disableDefaultUI: true,
-        center: new google.maps.LatLng(51.52467, -0.087562),
-        mapTypeId: google.maps.MapTypeId.ROADMAP,
-        styles: [{
-            "featureType": "water",
-            "stylers": [{
-                "color": "#021019"
-            }]
-        }, {
-            "featureType": "landscape",
-            "stylers": [{
-                "color": "#08304b"
-            }]
-        }, {
-            "featureType": "poi",
-            "elementType": "geometry",
-            "stylers": [{
-                "color": "#0c4152"
-            }, {
-                "lightness": 5
-            }]
-        }, {
-            "featureType": "road.highway",
-            "elementType": "geometry.fill",
-            "stylers": [{
-                "color": "#000000"
-            }]
-        }, {
-            "featureType": "road.highway",
-            "elementType": "geometry.stroke",
-            "stylers": [{
-                "color": "#0b434f"
-            }, {
-                "lightness": 25
-            }]
-        }, {
-            "featureType": "road.arterial",
-            "elementType": "geometry.fill",
-            "stylers": [{
-                "color": "#000000"
-            }]
-        }, {
-            "featureType": "road.arterial",
-            "elementType": "geometry.stroke",
-            "stylers": [{
-                "color": "#0b3d51"
-            }, {
-                "lightness": 16
-            }]
-        }, {
-            "featureType": "road.local",
-            "elementType": "geometry",
-            "stylers": [{
-                "color": "#000000"
-            }]
-        }, {
-            "elementType": "labels.text.fill",
-            "stylers": [{
-                "color": "#ffffff"
-            }]
-        }, {
-            "elementType": "labels.text.stroke",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 13
-            }]
-        }, {
-            "featureType": "administrative",
-            "elementType": "geometry.fill",
-            "stylers": [{
-                "color": "#000000"
-            }]
-        }, {
-            "featureType": "administrative",
-            "elementType": "geometry.stroke",
-            "stylers": [{
-                "color": "#144b53"
-            }, {
-                "lightness": 14
-            }, {
-                "weight": 1.4
-            }]
-        }]
-    }
-    var map01 = new google.maps.Map(document.getElementById('map-supermarket'), mapOptions);
-
-    var iconSainsbury = new google.maps.MarkerImage("images/sainsbury-logo.png", null, null, null, new google.maps.Size(100, 38));
-    var iconCooperative = new google.maps.MarkerImage("images/cooperative-logo.png", null, null, null, new google.maps.Size(120, 18));
-    var iconTesco = new google.maps.MarkerImage("images/tesco-logo.png", null, null, null, new google.maps.Size(100, 67));
-    var iconWaitrose = new google.maps.MarkerImage("images/waitrose-logo.png", null, null, null, new google.maps.Size(100, 28));
-    // var iconTechHub = new google.maps.MarkerImage("images/techhub-marker.png", null, null, null, new google.maps.Size(90, 47));
-
-    // var markerTechHub = new google.maps.Marker({
-    //     position: new google.maps.LatLng(51.525831, -0.089141),
-    //     map: map01,
-    //     icon: iconTechHub
-    // });
-    // var markerTechHubCampus = new google.maps.Marker({
-    //     position: new google.maps.LatLng(51.522685, -0.085222),
-    //     map: map01,
-    //     icon: iconTechHub
-    // });
-    var markerSainsbury = new google.maps.Marker({
-        position: new google.maps.LatLng(51.52475, -0.087369),
-        map: map01,
-        icon: iconSainsbury
-    });
-    var markerCooperative = new google.maps.Marker({
-        position: new google.maps.LatLng(51.525656, -0.090517),
-        map: map01,
-        icon: iconCooperative
-    });
-    var markerTesco = new google.maps.Marker({
-        position: new google.maps.LatLng(51.522691, -0.086807),
-        map: map01,
-        icon: iconTesco
-    });
-    var markerWaitrose = new google.maps.Marker({
-        position: new google.maps.LatLng(51.521846, -0.092363),
-        map: map01,
-        icon: iconWaitrose
-    });
-    </script>
 
     <!-- build:js scripts/plugins.js -->
     <script src="bower_components/bootstrap/js/dropdown.js"></script>
