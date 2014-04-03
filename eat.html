@@ -147,6 +147,11 @@
 
         <div class="container section-text">
             <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <h2>Feling hungry?</h2>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-sm-4 text-center">
                     <div class="small-section">
                         <h3>Cheap eats</h3>
@@ -230,9 +235,14 @@
         <div class="small-section"></div>
         <div class="bg-drink  img-background"></div>
         <div class="container">
-            <div class="row">
+            <div class="row text-center small-section">
+                <div class="col-md-10 col-md-offset-1">
+                    <h2>Feling thirsty?</h2>
+                </div>
+            </div>
+            <div class="row text-center">
                 <div class="col-md-6">
-                    <div class="section-text">
+                    <div class="small-section">
                         <h2><i class="fa fa-beer fa-2x text-success"></i>
                         </h2>
                         <p class="text-center drink-list">
@@ -245,7 +255,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="section-text">
+                    <div class="small-section">
                         <h2><i class="fa fa-coffee fa-2x text-success"></i>
                         </h2>
                         <p class="text-center drink-list">
@@ -262,10 +272,10 @@
                     <div class="small-section text-center">
                         <h2 class="text-success"><i class="fa fa-glass fa-2x"></i>
                         </h2>
-                        <h2>You can find really good
+                        <h3>You can find really good
                             <span class="text-success">cocktails</span>&nbsp;in basements these days
                             <br>
-                            <span class="text-success">Tech City</span>&nbsp;is home to 6 of the world's 50 best cocktail bars.</h2>
+                            <span class="text-success">Tech City</span>&nbsp;is home to 6 of the world's 50 best cocktail bars.</h3>
                         <p>
                             <br>
                             <h4>
@@ -296,6 +306,42 @@
                 </div>
             </div>
 
+            <div class="row small-section">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="text-center">
+                        <h2>Supermarket</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <h4 class="text-success">Tesco Express</h4>
+                    <p>1-23 City Rd
+                        <br>London EC1Y 1AG</p>
+                </div>
+                <div class="col-sm-3">
+                    <h4 class="text-success">Sainsbury's Local</h4>
+                    <p>73 City Rd
+                        <br>London EC1Y 1BD</p>
+                </div>
+                <div class="col-sm-3">
+                    <h4 class="text-success">The Co-operative Food</h4>
+                    <p>185 Old St
+                        <br>London EC1V 9NP</p>
+                </div>
+                <div class="col-sm-3">
+                    <h4 class="text-success">Waitrose</h4>
+                    <p>Cheery Tree Walk Centre
+                        <br>Whitecross St
+                        <br>London EC1Y 8NX</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <div class="map">
+            <div class="map-disable"></div>
+            <div id="map-supermarket" class="map-canvas"></div>
         </div>
 
     </section>
@@ -348,6 +394,136 @@
     }(window, document, 'script', 'ga'));
     ga('create', 'UA-33525349-3', 'techhub.london');
     ga('send', 'pageview');
+    </script>
+
+    <script src="//maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script>
+    // Google map
+    var mapOptions = {
+        zoom: 16,
+        disableDefaultUI: true,
+        center: new google.maps.LatLng(51.52467, -0.087562),
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        styles: [{
+            "featureType": "water",
+            "stylers": [{
+                "color": "#021019"
+            }]
+        }, {
+            "featureType": "landscape",
+            "stylers": [{
+                "color": "#08304b"
+            }]
+        }, {
+            "featureType": "poi",
+            "elementType": "geometry",
+            "stylers": [{
+                "color": "#0c4152"
+            }, {
+                "lightness": 5
+            }]
+        }, {
+            "featureType": "road.highway",
+            "elementType": "geometry.fill",
+            "stylers": [{
+                "color": "#000000"
+            }]
+        }, {
+            "featureType": "road.highway",
+            "elementType": "geometry.stroke",
+            "stylers": [{
+                "color": "#0b434f"
+            }, {
+                "lightness": 25
+            }]
+        }, {
+            "featureType": "road.arterial",
+            "elementType": "geometry.fill",
+            "stylers": [{
+                "color": "#000000"
+            }]
+        }, {
+            "featureType": "road.arterial",
+            "elementType": "geometry.stroke",
+            "stylers": [{
+                "color": "#0b3d51"
+            }, {
+                "lightness": 16
+            }]
+        }, {
+            "featureType": "road.local",
+            "elementType": "geometry",
+            "stylers": [{
+                "color": "#000000"
+            }]
+        }, {
+            "elementType": "labels.text.fill",
+            "stylers": [{
+                "color": "#ffffff"
+            }]
+        }, {
+            "elementType": "labels.text.stroke",
+            "stylers": [{
+                "color": "#000000"
+            }, {
+                "lightness": 13
+            }]
+        }, {
+            "featureType": "administrative",
+            "elementType": "geometry.fill",
+            "stylers": [{
+                "color": "#000000"
+            }]
+        }, {
+            "featureType": "administrative",
+            "elementType": "geometry.stroke",
+            "stylers": [{
+                "color": "#144b53"
+            }, {
+                "lightness": 14
+            }, {
+                "weight": 1.4
+            }]
+        }]
+    }
+    var map01 = new google.maps.Map(document.getElementById('map-supermarket'), mapOptions);
+
+    var iconSainsbury = new google.maps.MarkerImage("images/sainsbury-logo.png", null, null, null, new google.maps.Size(100, 38));
+    var iconCooperative = new google.maps.MarkerImage("images/cooperative-logo.png", null, null, null, new google.maps.Size(120, 18));
+    var iconTesco = new google.maps.MarkerImage("images/tesco-logo.png", null, null, null, new google.maps.Size(100, 67));
+    var iconWaitrose = new google.maps.MarkerImage("images/waitrose-logo.png", null, null, null, new google.maps.Size(100, 28));
+    // var iconTechHub = new google.maps.MarkerImage("images/techhub-marker.png", null, null, null, new google.maps.Size(90, 47));
+
+    // var markerTechHub = new google.maps.Marker({
+    //     position: new google.maps.LatLng(51.525831, -0.089141),
+    //     map: map01,
+    //     icon: iconTechHub
+    // });
+    // var markerTechHubCampus = new google.maps.Marker({
+    //     position: new google.maps.LatLng(51.522685, -0.085222),
+    //     map: map01,
+    //     icon: iconTechHub
+    // });
+    var markerSainsbury = new google.maps.Marker({
+        position: new google.maps.LatLng(51.52475, -0.087369),
+        map: map01,
+        icon: iconSainsbury
+    });
+    var markerCooperative = new google.maps.Marker({
+        position: new google.maps.LatLng(51.525656, -0.090517),
+        map: map01,
+        icon: iconCooperative
+    });
+    var markerTesco = new google.maps.Marker({
+        position: new google.maps.LatLng(51.522691, -0.086807),
+        map: map01,
+        icon: iconTesco
+    });
+    var markerWaitrose = new google.maps.Marker({
+        position: new google.maps.LatLng(51.521846, -0.092363),
+        map: map01,
+        icon: iconWaitrose
+    });
     </script>
 
     <!-- build:js scripts/plugins.js -->
