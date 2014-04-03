@@ -106,10 +106,10 @@ if ($('.map').length > 0) {
     if ($('#map-supermarket').length > 0) {
         var map01 = new google.maps.Map(document.getElementById('map-supermarket'), mapOptions);
 
-        var iconSainsbury = new google.maps.MarkerImage('images/sainsbury-logo.png', null, null, null, new google.maps.Size(100, 38));
-        var iconCooperative = new google.maps.MarkerImage('images/cooperative-logo.png', null, null, null, new google.maps.Size(120, 18));
-        var iconTesco = new google.maps.MarkerImage('images/tesco-logo.png', null, null, null, new google.maps.Size(100, 67));
-        var iconWaitrose = new google.maps.MarkerImage('images/waitrose-logo.png', null, null, null, new google.maps.Size(100, 28));
+        var iconSainsbury = new google.maps.MarkerImage('images/6f22efd7.sainsbury-logo.png', null, null, null, new google.maps.Size(100, 38));
+        var iconCooperative = new google.maps.MarkerImage('images/faf50b4d.cooperative-logo.png', null, null, null, new google.maps.Size(120, 18));
+        var iconTesco = new google.maps.MarkerImage('images/7989b869.tesco-logo.png', null, null, null, new google.maps.Size(100, 67));
+        var iconWaitrose = new google.maps.MarkerImage('images/c036f5b3.waitrose-logo.png', null, null, null, new google.maps.Size(100, 28));
 
         new google.maps.Marker({
             position: new google.maps.LatLng(51.52475, -0.087369),
