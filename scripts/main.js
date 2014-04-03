@@ -136,10 +136,10 @@ if ($('.map').length > 0) {
     if ($('#map-workout').length > 0) {
         var map01 = new google.maps.Map(document.getElementById('map-workout'), mapOptions);
 
-        var iconMarketSports = new google.maps.MarkerImage('//d363bjfyowzbm6.cloudfront.net/images/marketsports-marker.jpg', null, null, null, new google.maps.Size(80, 42));
-        var iconVirginActive = new google.maps.MarkerImage('//d363bjfyowzbm6.cloudfront.net/images/virgin-marker.jpg', null, null, null, new google.maps.Size(90, 70));
-        var iconFitnessfirst = new google.maps.MarkerImage('//d363bjfyowzbm6.cloudfront.net/images/fitnessfirst-marker.gif', null, null, null, new google.maps.Size(100, 28));
-        var iconTechHub = new google.maps.MarkerImage('//d363bjfyowzbm6.cloudfront.net/images/techhub-marker.png', null, null, null, new google.maps.Size(90, 47));
+        var iconMarketSports = new google.maps.MarkerImage('images/marketsports-marker.jpg', null, null, null, new google.maps.Size(80, 42));
+        var iconVirginActive = new google.maps.MarkerImage('images/virgin-marker.jpg', null, null, null, new google.maps.Size(90, 70));
+        var iconFitnessfirst = new google.maps.MarkerImage('images/fitnessfirst-marker.gif', null, null, null, new google.maps.Size(100, 28));
+        var iconTechHub = new google.maps.MarkerImage('images/techhub-marker.png', null, null, null, new google.maps.Size(90, 47));
 
         new google.maps.Marker({
             position: new google.maps.LatLng(51.525831, -0.089141),
@@ -171,7 +171,7 @@ if ($('.map').length > 0) {
     if ($('#map-home').length > 0) {
         var map01 = new google.maps.Map(document.getElementById('map-home'), mapOptions);
 
-        var iconTechHub = new google.maps.MarkerImage('//d363bjfyowzbm6.cloudfront.net/images/techhub-marker.png', null, null, null, new google.maps.Size(90, 47));
+        var iconTechHub = new google.maps.MarkerImage('images/techhub-marker.png', null, null, null, new google.maps.Size(90, 47));
 
         new google.maps.Marker({
             position: new google.maps.LatLng(51.525831, -0.089141),
