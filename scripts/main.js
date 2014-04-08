@@ -13,6 +13,25 @@ $(window).scroll(function() {
     }
 });
 
+/* jshint ignore:start */
+// Google Analytics
+(function(b, o, i, l, e, r) {
+    'use strict';
+    b.GoogleAnalyticsObject = l;
+    b[l] || (b[l] =
+        function() {
+            (b[l].q = b[l].q || []).push(arguments)
+        });
+    b[l].l = +new Date;
+    e = o.createElement(i);
+    r = o.getElementsByTagName(i)[0];
+    e.src = '//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e, r)
+}(window, document, 'script', 'ga'));
+ga('create', 'UA-33525349-3', 'techhub.london');
+ga('send', 'pageview');
+/* jshint ignore:end */
+
 if ($('.map').length > 0) {
     var mapOptions = {
         zoom: 16,
@@ -107,7 +126,7 @@ if ($('.map').length > 0) {
         var map01 = new google.maps.Map(document.getElementById('map-supermarket'), mapOptions);
 
         var iconSainsbury = new google.maps.MarkerImage('images/sainsbury-logo.png', null, null, null, new google.maps.Size(100, 38));
-        var iconCooperative = new google.maps.MarkerImage('images/cooperative-logo.png', null, null, null, new google.maps.Size(120, 18));
+        var iconCooperative = new google.maps.MarkerImage('images/cooperative-logo.png', null, null, null, new google.maps.Size(150, 25));
         var iconTesco = new google.maps.MarkerImage('images/tesco-logo.png', null, null, null, new google.maps.Size(100, 67));
         var iconWaitrose = new google.maps.MarkerImage('images/waitrose-logo.png', null, null, null, new google.maps.Size(100, 28));
 
