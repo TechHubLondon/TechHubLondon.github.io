@@ -195,9 +195,15 @@ body, html {
     background-color: #1b1b1b;
 }
 .navbar {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0);
+}
+.navbar-on {
+    background-color: rgba(0, 0, 0, 0.85);
 }
 @media(min-width:767px) {
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.85);
+    }
     .img-background {
         display: table;
         width: 100%;
