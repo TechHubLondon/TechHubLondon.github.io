@@ -9,7 +9,7 @@ Feeling curious? See how we built the project in the [source](https://github.com
 ## Getting started
 
 
-Noticed a typo? Have a great place to add to one of the lists? You are welcome to edit and add things to the website.
+Noticed a typo? Have a great place to add to one of the lists? You are welcome to edit the website.
 
 
 
@@ -20,7 +20,7 @@ We ask that all additions fit these criteria:
 - It doesn’t cause the website to break or contain malicious code
 
 Any edits that do not fit the criteria sadly will not be added to the website :(  
-We reserve the right not to add content as we see fit, but we'll usually add any relevant content!
+TechHub dot London is a benevolent dictatorship - we reserve the right not to add content as we see fit, but we'll usually add any relevant content.
 
 
 ## Editing the website
