@@ -3,6 +3,11 @@ $('.dot-london-sub').removeClass('hidden').addClass('animated fadeIn');
 $('.dot-london').removeClass('hidden').addClass('animated fadeIn');
 $('.jumbo-text').removeClass('hidden').addClass('animated fadeInDown');
 
+$('.navbar-toggle').click(function(){
+    'use strict';
+    $('.navbar').toggleClass('navbar-on');
+});
+
 //jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
     'use strict';
