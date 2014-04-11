@@ -16,8 +16,8 @@ body, html {
     background-color: #1b1b1b;
     background-position: bottom center;
     background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
+    background-attachment: fixed !important;
+    background-size: cover !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
