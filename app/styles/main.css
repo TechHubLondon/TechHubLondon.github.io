@@ -215,7 +215,7 @@ body, html {
         background-color: #1b1b1b;
         background-position: bottom center;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
