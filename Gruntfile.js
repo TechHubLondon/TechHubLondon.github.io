@@ -398,9 +398,12 @@ module.exports = function(grunt) {
         'htmlmin'
     ]);
 
-    grunt.registerTask('deploy', [
-        'buildcontrol:dist'
-    ]);
+    grunt.registerTask('deploy', function() {
+        grunt.task.run([
+            'build',
+            'buildcontrol:dist'
+        ]);
+    });
 
     grunt.registerTask('deploy-dev', [
         'buildcontrol:master'
