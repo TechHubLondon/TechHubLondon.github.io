@@ -82,10 +82,21 @@ body, html {
     display: inline;
     -webkit-animation-delay: .5s;
 }
+.logo-four-oh-four {
+    max-width: 300px;
+    display: inline;
+    -webkit-animation-delay: 2s;
+}
 .dot-london {
     display: inline-block;
     font-size: 2em;
     margin-left: 10px;
+    background-color: #1b1b1b;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+.four-oh-four {
+    display: inline-block;
+    font-size: 4em;
     background-color: #1b1b1b;
     background-color: rgba(0, 0, 0, 0.65);
 }
