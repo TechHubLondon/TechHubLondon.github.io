@@ -1,4 +1,5 @@
 $('.logo-intro').removeClass('hidden').addClass('animated flipInY');
+$('.logo-four-oh-four').addClass('animated hinge');
 $('.dot-london-sub').removeClass('hidden').addClass('animated fadeIn');
 $('.dot-london').removeClass('hidden').addClass('animated fadeIn');
 $('.jumbo-text').removeClass('hidden').addClass('animated fadeInDown');
