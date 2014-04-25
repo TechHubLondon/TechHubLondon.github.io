@@ -81,7 +81,7 @@ module.exports = function(grunt) {
                 tasks: ['newer:copy:styles', 'autoprefixer']
             },
             less: {
-                files: ['<%= config.app %>/bower_components/bootstrap/less/{,*/}*.less', '<%= config.app %>/bower_components/jasny-bootstrap/less/{,*/}*.less'],
+                files: ['<%= config.app %>/bower_components/bootstrap/less/{,*/}*.less'],
                 tasks: ['less:dev'],
                 options: {
                     livereload: true
