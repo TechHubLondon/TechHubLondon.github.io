@@ -31,8 +31,6 @@
                     <br>
                     <img src="images/techhub-logo.png" alt="" class="center-block img-responsive logo-four-oh-four">
                     <div class="dot-london-sub hidden">
-                        <span>The page you are looking for
-                            <br>was not approved by a Shoreditch Hipster</span>
                     </div>
                 </div>
             </div>
@@ -43,7 +41,6 @@
     <!-- bower:js -->
     <script src="bower_components/respond/dest/respond.src.js"></script>
     <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/imager.js/Imager.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -56,6 +53,12 @@
     <!-- build:js({app,.tmp}) scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
+
+    <script>
+    var quotes = ['<span>The page you are looking for<br>was not approved by a Shoreditch Hipster</span>', '<span>these are not the droids you are looking for</span>', '<span>The page you are looking for<br>is soooo last season</span>', '<span>The page you are looking for<br>is in a coffee shop somewhere</span>', '<span>The page you are looking for<br>has transcended this realm of mere mortals</span>', '<span>The page you are looking for<br>is currently away getting it\'s beard trimmed/bike fixed/drinking craft beer</span>', '<span>The page you are looking for<br>has left the gas on at home, BRB</span>'],
+        randno = quotes[Math.floor(Math.random() * quotes.length)];
+    $('.dot-london-sub').html(randno);
+    </script>
 
 </body>
 
