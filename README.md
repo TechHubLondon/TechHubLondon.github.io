@@ -20,13 +20,14 @@ We ask that all additions fit these criteria:
 - It doesn’t cause the website to break or contain malicious code
 
 Any edits that do not fit the criteria sadly will not be added to the website :(  
-TechHub dot London is a benevolent dictatorship - we reserve the right not to add content as we see fit, but we'll usually add any relevant content.
+We reserve the right not to add content as we see fit, but we'll usually happy to add any relevant edits.
 
 
 ## Editing the website
 
 Please edit the [dev](https://github.com/TechHubLondon/TechHubLondon.github.io.github.io/tree/dev) branch.
 
+- Fork the project into your own account
 - Edit the HTML and add your CSS in `styles/main.css`
 - Please store any images you use on GitHub, and do not link to external images
 - Send us a pull request with your changes!
