@@ -164,7 +164,9 @@ if ($('.map').length > 0) {
         var iconMarketSports = new google.maps.MarkerImage('images/marketsports-marker.jpg', null, null, null, new google.maps.Size(80, 42));
         var iconVirginActive = new google.maps.MarkerImage('images/virgin-marker.jpg', null, null, null, new google.maps.Size(90, 70));
         var iconFitnessfirst = new google.maps.MarkerImage('images/fitnessfirst-marker.gif', null, null, null, new google.maps.Size(100, 28));
+        var iconNationalCircus = new google.maps.MarkerImage('images/nationalcircus-marker.png', null, null, null, new google.maps.Size(120, 41));
         var iconTechHub = new google.maps.MarkerImage('images/techhub-marker.png', null, null, null, new google.maps.Size(90, 47));
+
 
         new google.maps.Marker({
             position: new google.maps.LatLng(51.525831, -0.089141),
@@ -185,6 +187,11 @@ if ($('.map').length > 0) {
             position: new google.maps.LatLng(51.522593, -0.089665),
             map: map01,
             icon: iconVirginActive
+        });
+        new google.maps.Marker({
+            position: new google.maps.LatLng(51.5273222,-0.0828048),
+            map: map01,
+            icon: iconNationalCircus
         });
         new google.maps.Marker({
             position: new google.maps.LatLng(51.524011, -0.090601),
