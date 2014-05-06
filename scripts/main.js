@@ -156,6 +156,24 @@ if ($('.map').length > 0) {
             map: map01,
             icon: iconWaitrose
         });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(51.525646, -0.082518),
+            map: map01,
+            icon: iconCooperative
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(51.526497, -0.084256),
+            map: map01,
+            icon: iconSainsbury
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(51.524535, -0.077432),
+            map: map01,
+            icon: iconTesco
+        });
     }
 
     if ($('#map-workout').length > 0) {
