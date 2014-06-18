@@ -1,17 +1,16 @@
+'use strict';
 $('.logo-intro').removeClass('hidden').addClass('animated flipInY');
 $('.logo-four-oh-four').addClass('animated hinge');
 $('.dot-london-sub').removeClass('hidden').addClass('animated fadeIn');
 $('.dot-london').removeClass('hidden').addClass('animated fadeIn');
 $('.jumbo-text').removeClass('hidden').addClass('animated fadeInDown');
 
-$('.navbar-toggle').click(function(){
-    'use strict';
+$('.navbar-toggle').click(function() {
     $('.navbar').toggleClass('navbar-on');
 });
 
 //jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
-    'use strict';
     if ($('.navbar').offset().top > 50) {
         $('.navbar-fixed-top').addClass('top-nav-collapse');
     } else {
@@ -177,6 +176,7 @@ if ($('.map').length > 0) {
     }
 
     if ($('#map-workout').length > 0) {
+        mapOptions.zoom = 16;
         var map01 = new google.maps.Map(document.getElementById('map-workout'), mapOptions);
 
         var iconMarketSports = new google.maps.MarkerImage('images/marketsports-marker.jpg', null, null, null, new google.maps.Size(80, 42));
@@ -184,10 +184,14 @@ if ($('.map').length > 0) {
         var iconFitnessfirst = new google.maps.MarkerImage('images/fitnessfirst-marker.gif', null, null, null, new google.maps.Size(100, 28));
         var iconNationalCircus = new google.maps.MarkerImage('images/nationalcircus-marker.png', null, null, null, new google.maps.Size(120, 41));
         var iconTechHub = new google.maps.MarkerImage('images/techhub-marker.png', null, null, null, new google.maps.Size(90, 47));
-        var iconFrame = new google.maps.MarkerImage('images/frame-logo.jpg', null, null, null, new google.maps.Size(120, 48));
         var iconIronmonger = new google.maps.MarkerImage('images/better-logo.jpg', null, null, null, new google.maps.Size(120, 63));
+        var iconBodytraining = new google.maps.MarkerImage('images/bodywise-logo.jpg', null, null, null, new google.maps.Size(120, 37));
 
-
+        new google.maps.Marker({
+            position: new google.maps.LatLng(51.520942, -0.090712),
+            map: map01,
+            icon: iconBodytraining
+        });
         new google.maps.Marker({
             position: new google.maps.LatLng(51.525831, -0.089141),
             map: map01,
@@ -209,7 +213,7 @@ if ($('.map').length > 0) {
             icon: iconVirginActive
         });
         new google.maps.Marker({
-            position: new google.maps.LatLng(51.5273222,-0.0828048),
+            position: new google.maps.LatLng(51.5273222, -0.0828048),
             map: map01,
             icon: iconNationalCircus
         });
@@ -218,12 +222,7 @@ if ($('.map').length > 0) {
             map: map01,
             icon: iconFitnessfirst
         });
-	new google.maps.Marker({
-            position: new google.maps.LatLng(51.524762, -0.078703),
-            map: map01,
-            icon: iconFrame
-        });
-	new google.maps.Marker({
+        new google.maps.Marker({
             position: new google.maps.LatLng(51.526457, -0.094817),
             map: map01,
             icon: iconIronmonger
