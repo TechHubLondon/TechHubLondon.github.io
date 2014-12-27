@@ -18,7 +18,7 @@ body, html {
     background-position: bottom center;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-size: cover ;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -44,6 +44,7 @@ body, html {
 }
 .campus {
     /*background-image: url(http://www.campuslondon.com/static/public/img/header/desktop/home-x2.jpg);*/
+    
     background-image: url(../images/events2.jpg);
     padding: 100px 0;
     background-attachment: scroll;
@@ -124,14 +125,14 @@ body, html {
     font-size: 1.4em;
 }
 .section-text {
-    padding:50px 0;
+    padding: 50px 0;
     text-align: center;
 }
 .map {
     position: relative;
     height: 31em;
     text-align: right;
-    margin:80px 0;
+    margin: 80px 0;
 }
 .map-canvas {
     box-sizing: border-box;
@@ -180,21 +181,21 @@ body, html {
     background-color: #f7af3f;
 }
 .logo-small {
-    margin-bottom:30px;
-    margin-top:30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 .text-black {
     color: #333;
 }
 .footer-social i {
-    margin:0 15px;
+    margin: 0 15px;
 }
 .small-section {
-    padding:30px 0;
+    padding: 30px 0;
 }
 .bg-white {
     background-color: #fafafa;
-    padding:60px 0;
+    padding: 60px 0;
     color: #333;
 }
 .img-background {
@@ -212,7 +213,20 @@ body, html {
 .navbar-on {
     background-color: rgba(0, 0, 0, 0.85);
 }
+.github-fork-ribbon-wrapper.right-bottom .github-fork-ribbon {
+    visibility: hidden;
+}
 @media(min-width:767px) {
+    .github-fork-ribbon-wrapper.right-bottom .github-fork-ribbon {
+        visibility: visible;
+        top: 80px;
+        right: -43px;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
     .navbar {
         background-color: rgba(0, 0, 0, 0.85);
     }
@@ -234,7 +248,7 @@ body, html {
         -o-background-size: cover;
     }
     .section-text {
-        padding:100px 0;
+        padding: 100px 0;
     }
     .intro {
         background-image: url(../images/207night.jpg);
@@ -256,6 +270,7 @@ body, html {
     }
     .campus {
         /*background-image: url(http://www.campuslondon.com/static/public/img/header/desktop/home-x2.jpg);*/
+        
         background-image: url(../images/events2.jpg);
         padding: 200px 0;
         background-attachment: scroll;
@@ -305,7 +320,7 @@ body, html {
         padding: 0;
     }
     .logo-intro {
-        padding-top:0px;
+        padding-top: 0px;
     }
     .jumbo-text {
         font-size: 4em;
@@ -314,6 +329,6 @@ body, html {
         padding-top: 20px;
     }
     #footer {
-        padding-top:70px;
+        padding-top: 70px;
     }
 }
