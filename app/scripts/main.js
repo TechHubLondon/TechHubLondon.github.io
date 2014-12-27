@@ -39,9 +39,9 @@ ga('send', 'pageview');
 
 if ($('.map').length > 0) {
     var mapOptions = {
-        zoom: 16,
+        zoom: 15,
         disableDefaultUI: true,
-        center: new google.maps.LatLng(51.52467, -0.087562),
+        center: new google.maps.LatLng(51.52387, -0.082562),
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         styles: [{
             'featureType': 'water',
@@ -128,6 +128,7 @@ if ($('.map').length > 0) {
 
     // Supermarket map in eat.html page
     if ($('#map-supermarket').length > 0) {
+        mapOptions.zoom = 16;
         var map01 = new google.maps.Map(document.getElementById('map-supermarket'), mapOptions);
 
         var iconSainsbury = new google.maps.MarkerImage('images/sainsbury-logo.png', null, null, null, new google.maps.Size(100, 38));
@@ -227,6 +228,11 @@ if ($('.map').length > 0) {
             map: map01,
             icon: iconIronmonger
         });
+        new google.maps.Marker({
+            position: new google.maps.LatLng(51.5213559, -0.0766862),
+            map: map01,
+            icon: iconTechHub
+        });
     }
 
     if ($('#map-home').length > 0) {
@@ -241,6 +247,11 @@ if ($('.map').length > 0) {
         });
         new google.maps.Marker({
             position: new google.maps.LatLng(51.522685, -0.085222),
+            map: map01,
+            icon: iconTechHub
+        });
+        new google.maps.Marker({
+            position: new google.maps.LatLng(51.5213559, -0.0766862),
             map: map01,
             icon: iconTechHub
         });
