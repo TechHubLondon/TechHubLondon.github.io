@@ -41,7 +41,7 @@ if ($('.map').length > 0) {
     var mapOptions = {
         zoom: 15,
         disableDefaultUI: true,
-        center: new google.maps.LatLng(51.52387, -0.082562),
+        center: new google.maps.LatLng(51.52087, -0.082562),
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         styles: [{
             'featureType': 'water',
@@ -241,7 +241,7 @@ if ($('.map').length > 0) {
         var iconTechHub = new google.maps.MarkerImage('images/techhub-marker.png', null, null, null, new google.maps.Size(90, 47));
 
         new google.maps.Marker({
-            position: new google.maps.LatLng(51.525831, -0.089141),
+            position: new google.maps.LatLng(51.5196959,-0.0884605),
             map: map01,
             icon: iconTechHub
         });
